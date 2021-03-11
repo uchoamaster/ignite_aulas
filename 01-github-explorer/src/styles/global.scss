@@ -14,22 +14,17 @@ body{
     color: #121214;
 }
 
-ul {
-    text-orientation: none;
-}
-
 ul li {
-    padding: 20px;
     width:200px;
     background:#ccc;
     border:1px solid #121214;
-    margin: 20px;
-
+    border-radius: 5px;
 }
 
 .repository-list {
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
 }
