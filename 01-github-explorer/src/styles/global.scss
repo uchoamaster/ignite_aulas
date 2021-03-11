@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+
+    text-align: center;
+}
+
+body{
+    font: 16px "Helvetica Neue", Arial, sans-serif;
+    color: #121214;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+ul li {
+    width:200px;
+    background:#ccc;
+    border:1px solid #121214;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.repository-list {
+    padding: 50px;
+}
