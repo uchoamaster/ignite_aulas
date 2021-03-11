@@ -7,12 +7,17 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
+  "scripts":{
+    "dev": "webpack serve",
+    "build":"cross-env NODE_ENV=production webpack"
+  },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
     "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0",
