@@ -21,10 +21,13 @@ ul{
     flex-wrap: wrap;
     padding-bottom: 10px;
     list-style: none;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 
 ul li {
-    width:200px;
+    width:250px;
     background:#ccc;
     border:1px solid #121214;
     padding: 10px;
@@ -34,8 +37,10 @@ ul li {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    
 }
 
 .repository-list {
     padding: 50px;
+    text-align: center;
 }
