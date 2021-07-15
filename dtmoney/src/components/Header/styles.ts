@@ -28,3 +28,5 @@ button{
     }
 }
 `;
+
+// botão com hack de hover evitando assim o máximo de linhas e repetição de código e efeito de filtro para evitar colocar outra cor desnecessária tb na aplicação
