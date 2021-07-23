@@ -11,19 +11,25 @@ div{
     padding: 1.25rem 2rem;
     border-radius: 0.25rem;
     color: var(--title);
-}
-
-header{
+    
+    
+    header{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-strong{
-    margin-top:1rem;
-    font-size:2rem;
-    font-weight: 500;
-    line-height:3rem;
+    strong{
+        display: block;
+        margin-top:1rem;
+        font-size:2rem;
+        font-weight: 500;
+        line-height:3rem;
 
+    }
+    &.highlight-background {
+        background: var(--green);
+        color: #FFF;
+    }
 }
 `;
