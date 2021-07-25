@@ -20,3 +20,14 @@ Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o coman
 ##### passo 2:
 rodar em outro terminal o comando "yarn server" sem as aspas para rodar o servidor que trará as rotas da api via JSON
 efetuando estes 02 comandos o projeto estará no ar.
+
+### imagem projeto 03 dtmoney
+![whatch](https://user-images.githubusercontent.com/5197047/119360999-91ed8e80-bc81-11eb-8686-e9966d6efc80.png)
+
+#### Como utilizar o projeto?
+##### passo 1:
+Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
+
+##### passo 2:
+rodar em outro terminal o comando "yarn server" sem as aspas para rodar o servidor que trará as rotas da api via JSON
+efetuando estes 02 comandos o projeto estará no ar.
