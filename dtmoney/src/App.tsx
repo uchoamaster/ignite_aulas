@@ -1,16 +1,38 @@
+import { useState } from 'react';
+import Modal from 'react-modal';
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 
+Modal.setAppElement('#root');
+
 export function App() {
+
+  const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
+
+  function handleOpenNewTransactionModal() {
+      setIsNewTransactionModalOpen(true);
+  }
+  
+  function handleCloseNewTransactionModal() {
+      setIsNewTransactionModalOpen(false);
+  }
+
   return (
 
   //react fragment evitando div desnecessaria no projeto
   //component header importado e sendo utilizado com sucesso no App.tsx
     <> 
     
-      <Header />
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}/>
       <Dashboard />
+            <Modal
+              isOpen={isNewTransactionModalOpen}
+              onRequestClose={handleCloseNewTransactionModal}
+              >
+              <h2>Cadastrar transação</h2>
+            </Modal>
+
       <GlobalStyle />
     </>
   );
