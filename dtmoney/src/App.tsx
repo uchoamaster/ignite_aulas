@@ -4,12 +4,14 @@ import { Header } from "./components/Header";
 import Modal from 'react-modal';
 import { NewTransactionModal } from './components/NewTransactionModal';
 import { GlobalStyle } from "./styles/global";
+import {  TransactionsProvider } from './TransactionsContext';
 
 Modal.setAppElement('#root');
 
 export function App() {
 
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
+ 
 
   function handleOpenNewTransactionModal() {
       setIsNewTransactionModalOpen(true);
@@ -20,10 +22,7 @@ export function App() {
   }
 
   return (
-
-  //react fragment evitando div desnecessaria no projeto
-  //component header importado e sendo utilizado com sucesso no App.tsx
-    <> 
+    <TransactionsProvider> 
     
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}/>
       <Dashboard />
@@ -32,7 +31,7 @@ export function App() {
       onRequestClose={handleCloseNewTransactionModal}
       />
       <GlobalStyle />
-    </>
+    </TransactionsProvider>
   );
 }
 
