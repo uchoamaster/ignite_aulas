@@ -18,7 +18,7 @@ interface Transaction {
 //     category: string;
 // }
 //aqui eu estou falando que o transactionInput herdará todos os campos do transaction, menos o Id e o createAt
-type TransactionInput = Omit<Transaction, 'id' | 'createAt'>;
+type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
 
 //posso fazer tambem utilizando pick
 // type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>;
