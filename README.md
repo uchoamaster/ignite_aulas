@@ -30,13 +30,15 @@ efetuando estes 02 comandos o projeto estará no ar.
 ##### passo 1:
 Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
 
-Desafio 01 - Criando um hook de carrinho de compras
+### Desafio 01 - Criando um hook de carrinho de compras
 #### Como utilizar o projeto?
 ##### passo 1:
 Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
 ##### passo 2:
 rodar em outro terminal o comando "yarn server" sem as aspas para rodar o servidor que trará as rotas da api via JSON
 efetuando estes 02 comandos o projeto estará no ar.
+
+### imagem desafio 01 criando um hook de carrinho de compras
 ![carrinho1](https://user-images.githubusercontent.com/5197047/182029535-8b134d42-a7f2-4359-aefa-a3ee7819738b.png)
 
 ![limite_itens](https://user-images.githubusercontent.com/5197047/182029544-26792f75-5a7c-4c49-9d83-ac20fe44dac3.png)
