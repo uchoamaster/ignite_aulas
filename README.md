@@ -60,10 +60,9 @@ efetuando estes 02 comandos o projeto estará no ar.
 ### Desafio 01 - Criando um projeto do zero - Módulo III
 #### Como utilizar o projeto?
 ##### passo 1:
-Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
+Basta instalar yarn com o comando "yarn" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
 ##### passo 2:
-rodar em outro terminal o comando "yarn server" sem as aspas para rodar o servidor que trará as rotas da api via JSON
-efetuando estes 02 comandos o projeto estará no ar.
+rodar em outro terminal o comando "yarn dev" sem as aspas para rodar o servidor que trará o projeto no ar corretamente.
 ### Imagens Desafio 01 - Criando um projeto do zero - Módulo III
 
 ![Captura de tela de 2022-08-03 10-37-03](https://user-images.githubusercontent.com/5197047/182625816-23db0324-e4ee-4fbe-8925-dca2ddcd8efc.png)
