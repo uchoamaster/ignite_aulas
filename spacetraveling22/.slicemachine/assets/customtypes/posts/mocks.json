@@ -1,0 +1,51 @@
+{
+  "id": "2da30544-34e0-4538-b510-a005ed812c5f",
+  "uid": "ipsum-dignissimos-voluptas",
+  "type": "posts",
+  "data": {
+    "title": "leverage strategic e-business",
+    "subtitle": "incentivize B2C eyeballs",
+    "author": "streamline strategic solutions",
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "heading": "reintermediate one-to-one solutions",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Exercitation et culpa nostrud laboris aliqua officia laboris sint sint.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "brand visionary technologies",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Duis Lorem labore sint magna non officia dolor laborum. Officia duis nisi aliquip duis aute ipsum dolore fugiat consequat ipsum anim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "drive end-to-end portals",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Sint deserunt do ut. Ullamco anim Lorem duis elit eiusmod incididunt est non commodo esse cillum exercitation commodo pariatur. Ullamco sint mollit dolore elit tempor aute enim consectetur occaecat commodo.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}
