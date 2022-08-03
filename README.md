@@ -57,4 +57,15 @@ efetuando estes 02 comandos o projeto estará no ar.
 
 ![gorestaurante2](https://user-images.githubusercontent.com/5197047/182030799-ebfe9568-373c-4bea-9600-519c7f84a3fc.png)
 
+### Desafio 01 - Criando um projeto do zero - Módulo III
+#### Como utilizar o projeto?
+##### passo 1:
+Basta instalar yarn com o comando "yarn install" e na sequencia utilizar o comando "yarn dev" , rodará a versão front do projeto 
+##### passo 2:
+rodar em outro terminal o comando "yarn server" sem as aspas para rodar o servidor que trará as rotas da api via JSON
+efetuando estes 02 comandos o projeto estará no ar.
+### Imagens Desafio 01 - Criando um projeto do zero - Módulo III
+
+![Captura de tela de 2022-08-03 10-37-03](https://user-images.githubusercontent.com/5197047/182625816-23db0324-e4ee-4fbe-8925-dca2ddcd8efc.png)
+![Captura de tela de 2022-08-03 10-37-29](https://user-images.githubusercontent.com/5197047/182625830-174025b9-3917-418f-8bf1-9fc1d9c5430a.png)
 
